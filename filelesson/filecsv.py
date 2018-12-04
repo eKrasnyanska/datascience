@@ -19,19 +19,10 @@ index = 0
 
 for index in range(len(keys)):
 
-    key = [index]
-    value = [index]
+    key = keys[index]
+    value = values[index]
 
-    student[key] = value
+    student[key]=value
 
 print(student)
-
-
-"""for key in keys:
-    print(key)
-
-for value in values:
-    print(value)"""
-
-
-file.close
+file.close()
